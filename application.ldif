@@ -1,0 +1,140 @@
+dn: dc=beehappychile,dc=cl
+objectClass: domain
+objectClass: top
+dc: beehappychile
+
+dn: ou=communities,dc=beehappychile,dc=cl
+objectClass: organizationalUnit
+objectClass: top
+ou: communities
+
+dn: ou=al1419,ou=communities,dc=beehappychile,dc=cl
+objectClass: organizationalUnit
+objectClass: top
+ou: al1419
+description: Altamirano 1419
+
+dn: uid=101,ou=al1419,ou=communities,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: 101
+sn: 101
+uid: 101
+
+dn: uid=102,ou=al1419,ou=communities,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: 102
+sn: 102
+uid: 102
+
+dn: uid=103,ou=al1419,ou=communities,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: 103
+sn: 103
+uid: 103
+
+dn: uid=104,ou=al1419,ou=communities,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: 104
+sn: 104
+uid: 104
+
+
+
+
+
+
+
+dn: ou=da1798,ou=communities,dc=beehappychile,dc=cl
+objectClass: organizationalUnit
+objectClass: top
+ou: da1798
+description: Duble Almeyda 1798
+
+dn: uid=101,ou=da1798,ou=communities,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: 101
+sn: 101
+uid: 101
+
+dn: uid=102,ou=da1798,ou=communities,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: 102
+sn: 102
+uid: 102
+
+dn: uid=103,ou=da1798,ou=communities,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: 103
+sn: 103
+uid: 103
+
+dn: uid=104,ou=da1798,ou=communities,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: 104
+sn: 104
+uid: 104
+
+
+
+
+
+
+
+
+dn: ou=users,dc=beehappychile,dc=cl
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: uid=56991220195,ou=users,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: Alexis Bacian
+sn: Alexis Bacian
+uid: 56991220195
+
+dn: cn=56991220195,ou=users,dc=beehappychile,dc=cl
+objectClass: groupOfNames
+objectClass: top
+cn: 56991220195
+member: uid=jenny,ou=people,dc=wonderland,dc=net
+member: uid=katie,ou=people,dc=wonderland,dc=net
+member: uid=lee,ou=people,dc=wonderland,dc=net
+description: Sales group
+
+
+dn: uid=56954005414,ou=users,dc=beehappychile,dc=cl
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: person
+objectClass: top
+cn: Gabriela Duran
+sn: Gabriela Duran
+uid: 56954005414
+displayName: test
